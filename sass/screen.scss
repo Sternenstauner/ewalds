@@ -5,21 +5,29 @@
 
 @import "compass/reset";
 
+/* Arbeit mit Variablen */
+$color1: #668;
+$color2: #666;
+$color3: #333;
+$color4: #fff;
+$color5: #444;
+$color6: #222;
+
 	/* Basisdefinitionen */
 	#header { 
 		width: auto;
-		background: #666688; 
-		color: #fff;
-		border: 2px #333 solid;
+		background: $color1; 
+		color: $color4;
+		border: 2px $color2 solid;
 	}
 
 	#main { 
 		width: auto;
 		padding: 10px;
 		margin: 0 224px 0 224px;
-		border: 2px #aaa solid;
-		background: #666; 
-		color: #fff
+		border: 2px $color2 solid;
+		background: $color2; 
+		color: $color4
 	}
 	
 	#left { 
@@ -27,9 +35,9 @@
 		width: 200px;
 		padding: 10px;
 		margin: 0;
-		background: #444; 
-		color: #fff;
-		border: 2px #333 solid;
+		background: $color5; 
+		color: $color4;
+		border: 2px $color3 solid;
 	}
 
 	#right { 
@@ -37,14 +45,14 @@
 		width: 200px;
 		padding: 10px;
 		margin: 0;
-		background: #222; 
+		background: $color6; 
 		color: #fff;
-		border: 2px #333 solid;
+		border: 2px $color3 solid;
 	}
 	
 	#footer { 
 		clear: both;
-		background: #668; 
-		color: #fff;
-		border: 2px #333 solid;
+		background: $color1; 
+		color: $color4;
+		border: 2px $color3 solid;
 	}
