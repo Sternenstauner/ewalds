@@ -4,3 +4,47 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+	/* Basisdefinitionen */
+	#header { 
+		width: auto;
+		background: #666688; 
+		color: #fff;
+		border: 2px #333 solid;
+	}
+
+	#main { 
+		width: auto;
+		padding: 10px;
+		margin: 0 224px 0 224px;
+		border: 2px #aaa solid;
+		background: #666; 
+		color: #fff
+	}
+	
+	#left { 
+		float: left;
+		width: 200px;
+		padding: 10px;
+		margin: 0;
+		background: #444; 
+		color: #fff;
+		border: 2px #333 solid;
+	}
+
+	#right { 
+		float: right;
+		width: 200px;
+		padding: 10px;
+		margin: 0;
+		background: #222; 
+		color: #fff;
+		border: 2px #333 solid;
+	}
+	
+	#footer { 
+		clear: both;
+		background: #668; 
+		color: #fff;
+		border: 2px #333 solid;
+	}
