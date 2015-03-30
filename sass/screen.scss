@@ -56,3 +56,19 @@ $color6: #222;
 		color: $color4;
 		border: 2px $color3 solid;
 	}
+	
+nav {
+  float: right;
+  li {
+    float: left;
+    a {
+      color: #666;
+      &:hover {
+        color: #333;
+      }
+    }
+    &.current {
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+h1, h2, h3, h4, h5 {
+	margin-top:0p; /* ohne Abstände zum vorhergehenden Text */
+}
+
+.page-header{
+	margin-top:30px;
+}
+
+/* behandelt den Leerraum zwischen den Blocks */
+.no-pad-top{
+	padding-top:0;
+}
+
+.extra-pad{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.top-inner{
+	padding:90px 0 30px 0;
+}
+
+/* Bildgrößen */
+.img-xsm{width:100px;}
+.img-sm{width:200px;}
+.img-lg{width:400px;}
+.img-xlg{width:700px;}
+
+/* Korrigiert die Positionen bei "Letzte Kommentare" in blog.html */
+
+.clearfix{
+	clear:both;
+}

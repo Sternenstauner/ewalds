@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Muster 3-Spalter mit Floats</title>
+<link href="stylesheets/screen.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="header">
+	<h1>Kopfzeile (#header) - Dies ist eine sch&ouml;ne gro&szlig;e &Uuml;berschrift.</h1>
+	<p> <code>div#header { <br />
+&nbsp;&nbsp;width: auto;<br />
+&nbsp;&nbsp;...<br />
+}<br />
+  </code>  </p>
+</div>
+
+<div id="left">
+  <h2>Linke Spalte </h2>
+  <p><code>div#left {<br />
+&nbsp;&nbsp;<strong>float: left;</strong><br />
+&nbsp;&nbsp;width: 200px;<br />
+&nbsp;&nbsp;padding: 10px;<br />
+&nbsp;&nbsp;border: 2px #000 solid <br />
+&nbsp;&nbsp;...<br />
+    }</code></p>
+    <h2>Men&uuml;</h2>
+	<p>Punkt1</p>
+	<p>Diese Spalte besitzt eine feste Breite und wird durch die Eigenschaft
+  <code>float:left</code> automatisch am linken Rand platziert.</p>
+</div>
+
+<div id="right">
+  <h2>Rechte Spalte </h2>
+  <p><code>div#right {<br />
+&nbsp;&nbsp;<strong>float: right;</strong><br />
+&nbsp;&nbsp;width: 200px;<br />
+&nbsp;&nbsp;padding: 10px;<br />
+&nbsp;&nbsp;border: 2px #000 solid <br />
+&nbsp;&nbsp;...<br />
+    }</code></p>
+  <h2>Randspalte</h2>
+	<p>Diese Spalte besitzt eine feste Breite und wird durch die Eigenschaft
+  <code>float:right</code> automatisch am rechten Rand platziert.</p>
+</div>
+
+<div id="main">  
+  <h2>Mittlere Spalte </h2>
+  <p><code>div#main { <br />
+        <strong>&nbsp;&nbsp;width: auto;<br />
+        </strong>&nbsp;&nbsp;padding: 10px;<br />
+&nbsp;&nbsp;border: 2px #aaa solid <br />
+&nbsp;&nbsp;<strong>margin: 0 224px 0 224px;</strong><br />
+&nbsp;&nbsp;...<br />
+    }</code></p>
+  <p>Die Breite f&uuml;r den linken und rechten Margin ergibt sich entsprechend des Box-Modells
+      aus den Eigenschaften <code>width</code>, <code>padding</code> und <code>border</code> zu:
+      200 px + 2 * 10 px + 2 * 2 px = 224 Pixeln</p>
+  <p>Bei diesem Commit wurde einfach ein wenig Text im main-Bereich hinzugef&uuml;gt. Es geht nur darum, eine kleine Historie von Commits mit diverseen &Auml;nderungen zu erstellen, um ein wenig mit Git zu spielen.</p>
+  <p>Zus&auml;tzlicher Text, der mit dem 1. Commit zu issue#4 hinzugef&uuml;gt wurde.</p>
+  <p>Zus&auml;tzlicher Text, der mit dem 2. Commit zu issue#4 hinzugef&uuml;gt wurde.</p>
+  <p>Zus&auml;tzlicher Text, der mit dem 3. Commit zu issue#4 hinzugef&uuml;gt wurde.</p>
+  </div>
+<div id="footer">
+	<h2>Fu&szlig;zeile</h2>
+<p><code>div#footer { <br />
+        <strong>&nbsp;&nbsp;clear: both;<br />
+                          </strong>&nbsp;&nbsp;...<br />
+  }</code></p>
+	<p>Die Fu&szlig;zeile (#footer) steht immer unterhalb der Spalten. Daf&uuml;r sorgt die
+	  Eigenschaft: <code>clear:both</code>.</p>
+	<p>Der Test-Hotfix bestand einfach in einer Erweiterung des Inhaltes der Fu&szlig;zeile.</p>
+</div>
+</body>
+</html>
