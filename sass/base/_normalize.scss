@@ -31,3 +31,8 @@ h1, h2, h3, h4, h5 {
 .clearfix{
 	clear:both;
 }
+
+/* Test Sass and Compass for Designers, Seite 12, Forget about vendor prefixes */
+.rounded {
+	@include border-radius(4px);
+}
